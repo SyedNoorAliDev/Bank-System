@@ -1,4 +1,4 @@
-# Bank-System-
+# Bank System
 It is a Basic Bank System CLI app.
 We can add Clients and Accounts,
 View Client and Account Info,
