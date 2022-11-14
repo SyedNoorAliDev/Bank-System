@@ -155,8 +155,8 @@ public class Driver implements Serializable{
                     }
                     break;
                 }
-                case "X": {
-                    boolean t=true;
+                case "X":{
+                     boolean t=true;
                     Scanner sc = new Scanner(System.in);
                     System.out.println("Enter CNIC: ");
                     String cnic = sc.next();
@@ -165,15 +165,17 @@ public class Driver implements Serializable{
                     for (Client co : Bank.Clist) {
                         t = true;
                         if ((cnic.compareTo(co.personDetails.CNIC)) == 0) {
+                            t = true;
                             System.out.println(co);
                             for (Account a:Bank.aclist){
                                 if (a.accnum.equals(acno)){
                                     System.out.println(a);
+                                    break;
                                 }
                             }
+                            break;
                         } else {
                             t = false;
-
                         }
                     }
                     if (t == false) {
