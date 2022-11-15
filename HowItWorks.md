@@ -6,7 +6,9 @@ See whole bank (Its accounts sand clients),
 Withdraw/deposit money from any account.
 
 How to make it functional??
-1) Make 3 txt files:   Persons.txt,  Accounts.txt,  Clients.txt
+1) Download all the given files.
+
+3) Make 3 txt files:   Persons.txt,  Accounts.txt,  Clients.txt.
 
 3) Save All the files including these three text files in a package named as BankSys (Package Name may differ, and you can change it in your files )
 
