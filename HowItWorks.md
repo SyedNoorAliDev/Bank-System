@@ -16,5 +16,12 @@ How to make it functional??
 
 7) In persons.txt we will enter data manually in the sequence: name, cnic, number.
 
-9) Comment the loadAll() function written on top of the driver and add client, then add accounts. After adding each one of them, Uncomment the loadAll() function and now, your Menu Driven code is ready to use.
+9) Comment loadCustomers() and loadAccounts in the loadAll() function in Driver Class.
 
+10) Now add any customer using cnic of the person, exit the program and uncomment the loadCustomers() function in loadAll() function.
+
+12) Add an account using cnic and opening amount.
+
+13) Exit the program and Uncomment the loadAccounts() function in loadAll() function.
+
+14) The Bank System is ready to use!
